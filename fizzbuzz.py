@@ -1,9 +1,9 @@
 def fizzbuzz(x):
-    str = ''
+    words = ''
     if x % 3 == 0:
-        str += 'fizz'
+        words += 'fizz'
     if x % 5 == 0:
-        str +='buzz'
+        words +='buzz'
     if x % 3 != 0 and x % 5 != 0:
         return x
-    return str
+    return words
