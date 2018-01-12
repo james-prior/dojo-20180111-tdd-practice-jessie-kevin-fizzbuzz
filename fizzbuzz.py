@@ -1,13 +1,9 @@
 def fizzbuzz(x):
-    if x == 15:
-        return 'fizzbuzz'
-    if x == 23:
+    str = ''
+    if x % 3 == 0:
+        str += 'fizz'
+    if x % 5 == 0:
+        str +='buzz'
+    if x % 3 != 0 and x % 5 != 0:
         return x
-    if x == 3:
-        return 'fizz'
-    if x == 7:
-        return x
-    if x == 1 or x == 2:
-        return x
-    else:
-        return 'buzz'
+    return str
