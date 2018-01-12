@@ -4,6 +4,6 @@ def fizzbuzz(x):
         words += 'fizz'
     if x % 5 == 0:
         words +='buzz'
-    if x % 3 != 0 and x % 5 != 0:
+    if not words:
         return x
     return words
