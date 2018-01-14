@@ -1,4 +1,4 @@
-.cache/
-__pycache__/
-env/
+*~
 .*.swp
+__pycache__
+.cache
